@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSHA - Occupational Safety and Health Management System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">OSHA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to OSHA</h1>
+      <p>Your Partner in Occupational Safety and Health Management</p>
+      <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="About OSHA">
+        </div>
+        <div class="col-lg-6">
+          <h2>About Us</h2>
+          <p>OSHA is dedicated to ensuring the safety and health of workers in various industries. We specialize in developing comprehensive safety programs and systems that protect employees and meet regulatory standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>What We Do</h2>
+      <p>Our core services include:</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <h4>Workplace Audits</h4>
+          <p>We conduct thorough audits to identify and mitigate potential hazards.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Training Programs</h4>
+          <p>Customized training to educate employees on safety protocols.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Compliance Assistance</h4>
+          <p>Helping organizations meet occupational safety standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients" class="py-5">
+    <div class="container text-center">
+      <h2>Our Clients</h2>
+      <p>Trusted by top organizations worldwide:</p>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <img src="https://via.placeholder.com/150" alt="Client Logo" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="https://via.placeholder.com/150" alt="Client Logo" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="https://via.placeholder.com/150" alt="Client Logo" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <img src="https://via.placeholder.com/150" alt="Client Logo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Testimonials</h2>
+      <p>What our clients are saying:</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"OSHA transformed our workplace safety culture. Highly recommended!"</p>
+            <footer class="blockquote-footer">John Doe, CEO</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"The training sessions were engaging and insightful. OSHA is the best!"</p>
+            <footer class="blockquote-footer">Jane Smith, HR Manager</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Thanks to OSHA, our compliance rating improved significantly."</p>
+            <footer class="blockquote-footer">Mike Johnson, Safety Officer</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <form class="mt-4">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 OSHA. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+  </html>
+  
